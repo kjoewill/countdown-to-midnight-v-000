@@ -3,7 +3,7 @@
 def countdown(number)
   
   seconds = number
-  
+  binding.pry
   while seconds < 0 
     puts "#{seconds}  Second(s)"
     seconds -= 1
